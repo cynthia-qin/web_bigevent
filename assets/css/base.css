@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* 左浮动 */
+.fl {
+    float: left;
+}
+/* 右浮动 */
+.fr {
+    float: right;
+}
+/* 清除a标签的下划线 */
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* 清除li前面的小圆点 */
+li {
+    list-style:none;
+}
+
+/* 清除浮动带来的影响 */
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+/* 清除input获取焦点时的外边框 */
+input {
+    outline: none;
+    border: none;
+    color: #000;
+}
